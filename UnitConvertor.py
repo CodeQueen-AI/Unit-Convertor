@@ -106,4 +106,6 @@ elif category == "Temperature":
         st.success(f"🎯 Converted Value: {result:.2f}")
 
 st.markdown("<hr style='border: 1px dashed white;'>", unsafe_allow_html=True)
-st.markdown("<p style='text-align:center; font-size: 18px; color: black;'>✨ Made with 💖 in Streamlit ✨</p>", unsafe_allow_html=True)
+st.markdown("""
+    <p style='text-align:center; font-size: 18px; color: white;'>✨ Made with 💖 in Streamlit ✨</p>
+""", unsafe_allow_html=True)
