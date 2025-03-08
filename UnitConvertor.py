@@ -107,5 +107,18 @@ elif category == "Temperature":
 
 st.markdown("<hr style='border: 1px dashed white;'>", unsafe_allow_html=True)
 st.markdown("""
-    <p style='text-align:center; font-size: 18px; color: white;'>✨ Made with 💖 in Streamlit ✨</p>
+    <style>
+        @media (max-width: 600px) {
+            .made-with {
+                color: white !important;
+            }
+        }
+        @media (min-width: 601px) {
+            .made-with {
+                color: black !important;
+            }
+        }
+    </style>
+    <p class='made-with' style='text-align:center; font-size: 18px;'>✨ Made with 💖 in Streamlit ✨</p>
 """, unsafe_allow_html=True)
+
