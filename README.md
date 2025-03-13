@@ -5,8 +5,11 @@
 https://codequeen23-unitconvert.streamlit.app/
 
 # 📌 Supported Conversions
+
 1️⃣ Length 📏 – Meters, Kilometers, Inches, Feet, Miles
-2️⃣ Weight ⚖️ – Grams, Kilograms, Pounds, Ounces
+
+2️⃣ Weight ⚖️ – Grams, Kilograms
+
 3️⃣ Temperature 🌡️ – Celsius, Fahrenheit, Kelvin
 
 # 📌 Streamlit Installation
